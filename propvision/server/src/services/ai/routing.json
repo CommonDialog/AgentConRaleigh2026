@@ -1,0 +1,9 @@
+{
+  "IMAGE_GENERATION": { "primary": "stability", "fallback": "azure-openai" },
+  "IMAGE_EDIT": { "primary": "stability", "fallback": "stability" },
+  "INPAINTING": { "primary": "stability", "fallback": "stability" },
+  "IMAGE_UPSCALE": { "primary": "stability", "fallback": "stability" },
+  "DEPTH_ESTIMATION": { "primary": "stability", "fallback": "stability" },
+  "VISION_ANALYSIS": { "primary": "anthropic", "fallback": "anthropic" },
+  "TEXT_GENERATION": { "primary": "anthropic", "fallback": "anthropic" }
+}
